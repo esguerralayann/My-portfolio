@@ -1,0 +1,91 @@
+/* Body Design */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4ff;
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: #9370DB;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: papayawhip;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Sections */
+section {
+  padding: 30px;
+  margin: 20px;
+  background-color: mediumpurple;
+  border-radius: 10px;
+}
+
+/* Profile Image */
+.profile {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Project Cards */
+.card {
+  background-color: #000000;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Gallery */
+#gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #9073db;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  section {
+    margin: 10px;
+  }
+  
+  #gallery img {
+    width: 100%;
+  }
+}
